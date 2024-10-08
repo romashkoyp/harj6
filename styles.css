@@ -1,0 +1,110 @@
+* { margin: 0; }
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+}
+h2 {
+  color: #E49A2F;
+  padding: 1.1em 0 0.7em 0;
+}
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.arvo-bold-header {
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+article {
+  max-width: 90%;
+  margin: auto;
+  background-color: burlywood;
+  border: 1px solid cadetblue;
+}
+header {
+  background-color: #575757;
+  color: #F0EBEB;
+  font-size: 150%;
+  letter-spacing: 0.2em;
+  text-align: center;
+  padding: 1em 0;
+}
+nav, footer {
+  background-color: #E49A2F;
+  color: #F7F5EE;
+  text-align: center;
+}
+footer{
+  padding: 0.4em;
+}
+section {
+  background-color: #D8CCAF;
+  width: 100%;
+  border: 1px solid #AC9675;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+section.content_left, section.content_right {
+  width: 41%;
+  background-color: #F7F5EE;
+  border: 1px solid #AC9675;
+  margin: 1.25em 2%;
+  padding: 1.25em;
+  border-radius: 0.66em;
+}
+section.content_left {
+  float: left;
+}
+section.content_right {
+  float:right;
+  overflow: hidden;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  margin: 1em auto;
+  border-radius: 0.66em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E49A2F;
+  align-content: center;
+}
+i {
+  padding: 0 0.5em;
+}
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  padding: 0.4em 0.5em;
+  box-sizing: border-box;
+}
+a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color:#8a6129;
+}
+.icon-header {
+  color: #575757;
+  font-size: 3em;
+}
+.nav-icon {
+  color: white;
+}
